@@ -1,0 +1,32 @@
+.footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+background: linear-gradient(1deg , rgba(255,237,237,0.585) 0% , rgba(255,255,255,0) 14rem);
+}
+
+.copyRight{
+text-transform: uppercase;
+font-weight: 800;
+color: var(--themeRed);
+}
+.social{
+    display: flex;
+    gap: 1.5rem;
+}
+.social>*{
+    color: var(--themeRed);
+}
+.logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+     gap: 10px;
+}
+.logo>span{
+font-weight: bold;
+font-size: 1.5rem;
+
+}
